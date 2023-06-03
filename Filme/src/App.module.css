@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body{
+  background: linear-gradient(1deg, rgb(152, 253, 93), rgb(79, 245, 231)) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+h1{  
+  margin-bottom: 15px;
+
+}
+
+.center{
+  background-color: #08f8b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+
+}
+
+.input input{
+  display: flex;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 15px;
+  padding-right: 500px;
+  border: none;
+
+}
+
+.input button{
+  padding-right: 105px;
+  padding-left: 105px;
+  display: flex;
+  margin-left: 200px;
+  cursor: pointer;
+  flex-direction: column;
+  
+}
+
+.list{
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  
+}
+
+
+.iten{
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+
+}
+
+.iten:hover{
+  background-color: #08f8b4;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+
+
+}
+
+.iten image{
+size: 10px;
+
+
+}
+
+.iten h2{
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+
+}
+
+.iten h3{
+  margin-left: 5px;
+}
+
+
